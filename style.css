@@ -1,0 +1,144 @@
+body {
+  font: 13px/27px Roboto, RobotoDraft, Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid #dfe1e5;
+  padding-left: 25px;
+}
+
+.center {
+  margin: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.logo {
+  padding-top: 12%;
+}
+
+.input-center {
+  margin: auto;
+  width: 60%;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 6px;
+}
+
+img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a.gmail-link {
+  margin-right: 3%;
+  outline: none;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+a.image-link {
+    margin-right: 2%;
+  outline: none;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+input:focus {
+  outline: none !important;
+  border: 1px solid #dfe1e5;
+  /* box-shadow: 0 0 10px #719ECE; */
+}
+
+center {
+  padding-top: 3%;
+}
+
+input.btn {
+  margin-right: 2%;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  background-color: #f8f9fa;
+}
+
+input.btn:hover {
+  border: 1px solid #dedede;
+}
+
+.text-eng {
+  text-align: center;
+  padding-top: 2%;
+}
+
+.uU7dJb {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+footer {
+  background: #f2f2f2;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 2%;
+}
+
+.footer-aligne {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 1%;
+}
+
+.footer-text-color {
+  color: #70757a;
+  text-decoration: none;
+}
+
+.footer-aligne.footer-aligne-2 {
+  margin-top: 1%;
+  width: 35%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer-flex {
+    display: flex;
+}
+@media (max-width: 768px) {
+    .footer-aligne {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-top: 1%;
+    }
+
+}
